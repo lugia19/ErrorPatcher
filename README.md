@@ -25,7 +25,7 @@ The short version is:
 - Done! Feel free to send it to me and I'll include it in the download.
 
 ## Special Thanks
-Special thanks to Tungsten for making the texture edits and darktossgen for the English translation, as well as being putting up with all my rants.
+Special thanks to Tungsten for making the texture edits and darktossgen for the English translation, as well as putting up with all my rants.
 
 This program leverages the [UnityPy](https://pypi.org/project/UnityPy/) library to modify the game assets. Special thanks to its developer for helping me figure out how to use it properly.
 If you'd like to know more about how the patch itself works, as well as how to make something similar for other games, I made [this video]().
