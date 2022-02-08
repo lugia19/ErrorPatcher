@@ -1,14 +1,20 @@
 # Translation injector for Hololive ERROR
 
-## How to install
+## How do I install the patch?
 Grab the Translation.zip file for the latest version from the [releases page](https://github.com/lugia19/ErrorPatcher/releases), and unzip it in the same folder as HololiveERROR.exe.
 You now should have a folder called TranslationPatch. 
 
-If you're on windows, simply run patchGame.bat. Otherwise, download editAssets.py, put it in the TranslationPatch folder, install the requisite libraries and run it.
+If you're on windows, simply run patchGame.bat, select the language you want and you're done. 
 
-Select the language you want and you're done.
 
-## How to make a patch for another language
+### What if I'm not on Windows?
+Download editAssets.py, put it in the TranslationPatch folder, install the required libraries (UnityPy and Pillow) and run it.
+
+UnityPy might give you some trouble as it requires pythonnet 3, which can't currently install normally via pip.
+Just run `pip install git+https://github.com/pythonnet/pythonnet.git` (Requires git to be installed).
+
+
+## How do I make a translation for another language?
 
 The short version is:
 - Download the ResourcesForTranslators.zip file from the releases page (it has its own README with more details)
@@ -22,4 +28,4 @@ The short version is:
 Special thanks to Tungsten for making the texture edits and darktossgen for the English translation, as well as being putting up with all my rants.
 
 This program leverages the [UnityPy](https://pypi.org/project/UnityPy/) library to modify the game assets. Special thanks to its developer for helping me figure out how to use it properly.
-If you'd like to know more about how the patch itself works, as well as how to make something similar for other games, I made this video.
+If you'd like to know more about how the patch itself works, as well as how to make something similar for other games, I made [this video]().
