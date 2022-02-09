@@ -1,4 +1,4 @@
-# English (and other languages) patch for Hololive ERROR
+# Translation patch for Hololive ERROR
 
 ## How do I install the patch?
 Grab the Translation.zip file for the latest version from the [releases page](https://github.com/lugia19/ErrorPatcher/releases), and unzip it in the same folder as HololiveERROR.exe.
