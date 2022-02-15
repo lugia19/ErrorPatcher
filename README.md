@@ -6,6 +6,7 @@ You now should have a folder called TranslationPatch.
 
 If you're on windows, simply run patchGame.bat, select the language you want and you're done. 
 
+If you run into trouble, you can contact me via discord at lugia19#1189
 
 ### What if I'm not on Windows?
 Download editAssets.py, put it in the TranslationPatch folder, install the required libraries (UnityPy and Pillow) and run it.
